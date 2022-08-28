@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+}
+.food{
+  font-size: 40px;
+  margin-left: 1em;
+  font-weight: bold;
+}
+.navbar-toggler-icon{
+  height: 2em;
+  width: 2em;
+}
+
+#nav{
+  background-color: gray !important;
+  border: 4px solid black;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+.nav-item{
+  border: 2px solid black;
+  width: 100%;
+}
+#navbarSupportedContent{
+  margin-left: -0.7em;
+  margin-right: -0.7em;
+  margin-bottom: -0.8em;
+  background-color: white;
+}
+.mb-2 {
+  margin-bottom: 0rem!important;
+}
+@media (min-width: 767px){
+  #navbarSupportedContent{
+    visibility: hidden;
+  }
+  button{
+    visibility: hidden;
+  }
+ 
+}
+a.nav-link:hover{
+  background-color: red;
+}
+
+.content{
+  background-color: gray;
+}
+.menu{
+  font-size: 45px;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
